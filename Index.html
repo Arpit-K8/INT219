@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity_1</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      h1,
+      nav {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+        background-color: rgb(5, 178, 5);
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 45px;
+      }
+      #navmod {
+        background-color: rgb(5, 178, 5);
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8px;
+      }
+      .navbutton {
+        margin: 0;
+        padding: 10px;
+        cursor: pointer;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      p,
+      h2 {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .heading {
+        color: rgb(5, 178, 5);
+        margin: 0;
+      }
+      .box1 {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        width: 50%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        height: fit-content;
+      }
+      .content {
+        display: flex;
+      }
+      .foot-container {
+        background-color: rgb(70, 68, 68);
+        padding: 10px;
+        text-align: center;
+        margin-top: 11%;
+      }
+      .foot {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #foot-link {
+        color: rgb(5, 178, 5);
+      }
+
+      .row2 {
+        display: flex;
+        justify-content:flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 class="headline">Welcome to Your Website Task</h1>
+      <nav class="nav" id="navmod">
+        <a class="navbutton" href="#">Home</a>
+        <a class="navbutton" href="#">About</a>
+        <a class="navbutton" href="#">Contact</a>
+      </nav>
+    </div>
+    <div class="content">
+        <div class="row1">
+
+            <div class="box1" id="boxmod1">
+                <h2 class="heading">About CSS</h2>
+                <p>
+                    Cascading Style Sheets (CSS) allow you to style and layout your web
+                    pages, adding colors, spacing, and more.
+                </p>
+            </div>
+            <div class="box1">
+                <h2 class="heading">Responsive Design</h2>
+                <p>
+                    Responsive design ensures that your web pages look good on all
+                    devices, from desktops to mobile phones.
+                </p>
+            </div>
+        </div>
+        <div class="row2">
+
+            <div class="box1">
+                <h2 class="heading">Box Model</h2>
+                <p>
+                    Web accessibility means making your web content usable for people with
+                    disabilities, ensuring everyone can access information.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer class="foot-container">
+      <p class="foot">
+        Created by Arpit | Follow us on
+        <a href="" id="foot-link">&nbsp;Instagram</a> &nbsp;|&nbsp;
+        <a href="" id="foot-link">Twitter</a> &nbsp;|&nbsp;
+        <a href="" id="foot-link">Linkedin</a>
+      </p>
+    </footer>
+  </body>
+</html>
